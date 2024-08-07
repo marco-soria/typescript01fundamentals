@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      date-fns:
+        specifier: ^3.6.0
+        version: 3.6.0
     devDependencies:
       typescript:
         specifier: ^5.5.4
@@ -14,11 +18,16 @@ importers:
 
 packages:
 
+  date-fns@3.6.0:
+    resolution: {integrity: sha512-fRHTG8g/Gif+kSh50gaGEdToemgfj74aRX3swtiouboip5JDLAyDE9F11nHMIcvOaXeOC6D7SpNhi7uFyB7Uww==}
+
   typescript@5.5.4:
     resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
     engines: {node: '>=14.17'}
     hasBin: true
 
 snapshots:
+
+  date-fns@3.6.0: {}
 
   typescript@5.5.4: {}
